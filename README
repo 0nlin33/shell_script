@@ -1,0 +1,12 @@
+Disrupt.sh is an application launcher which will launch an application at a set interval constantly. Application is set to be code in this instance.
+
+Off.sh is a script written to turn your device off in a set time. Set the hour you want to turn your device off in timer variable and set the minute in the condition variable.
+
+Open.sh is a script written to mitigate having to update and upgrade your linux system in daily basis. You can put this file into /etc/rc6.d/ as K99_filename without any extension and it should run while you open your device.
+
+
+Additionally, you need to provide permission to all the shell scripts in order for them to execute.
+You can do this with,
+chmod +x scriptname.sh
+
+:) have a Good day.
